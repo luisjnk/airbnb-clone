@@ -1,12 +1,13 @@
 import React from 'react';
+import { NavBar } from '@/presentation/components';
 
 const Home: React.FC = () => {
 
   return (
     <div >
-      <h1>AIRBNB</h1>
+      <NavBar/>
     </div>
   )
 }
 
-export default Home;
+export default Home;  
